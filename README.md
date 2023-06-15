@@ -25,8 +25,8 @@ Resizable, movable, scriptable, headless modals
 To install, you can use [npm](https://npmjs.org/) or [yarn](https://yarnpkg.com):
 
 
-    $ npm install react-modal-resizable-draggable
-    $ yarn add react-modal-resizable-draggable
+    $ npm install react-movable-modals
+    $ yarn add react-movable-modals
 
 
 ## Usage
