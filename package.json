@@ -1,0 +1,53 @@
+{
+  "name": "react-movable-modals",
+  "version": "1.0.0",
+  "description": "Resizable, movable, scriptable, headless modals",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fkacar/react-movable-modals.git"
+  },
+  "license": "MIT",
+  "main": "build/main.js",
+  "typings": "lib/index.d.ts",
+  "peerDependencies": {
+    "react": "^17.0.1"
+  },
+  "dependencies": {
+    "react": "^17.0.0",
+    "react-dom": "^17.0.1",
+    "react-icons": "^4.2.0",
+    "react-motion": "^0.5.2",
+    "react-transition-group": "^4.4.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --env=dev --watch",
+    "build": "webpack --env=production"
+  },
+  "author": {
+    "name": "Fatih Kacar",
+    "email": "info@fatihkacar.com"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.14.7",
+    "@babel/plugin-transform-destructuring": "^7.14.7",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-react": "^7.14.5",
+    "@babel/preset-typescript": "^7.15.0",
+    "@types/jest": "^27.0.1",
+    "@types/react": "^17.0.19",
+    "@typescript-eslint/eslint-plugin": "^4.29.2",
+    "@typescript-eslint/parser": "^4.29.2",
+    "babel-loader": "^8.2.2",
+    "babel-preset-env": "^1.7.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^5.0.2",
+    "style-loader": "^2.0.0",
+    "ts-loader": "^8.2.0",
+    "typescript": "^4.3.5",
+    "webpack": "4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
