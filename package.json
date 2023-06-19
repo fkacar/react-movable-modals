@@ -1,6 +1,6 @@
 {
   "name": "react-movable-modals",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Resizable, movable, scriptable, headless modals",
   "repository": {
     "type": "git",
@@ -10,11 +10,10 @@
   "main": "build/main.js",
   "typings": "lib/index.d.ts",
   "peerDependencies": {
-    "react": "^17.0.1"
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   },
   "dependencies": {
-    "react": "^17.0.0",
-    "react-dom": "^17.0.1",
     "react-icons": "^4.2.0",
     "react-motion": "^0.5.2",
     "react-transition-group": "^4.4.1"
